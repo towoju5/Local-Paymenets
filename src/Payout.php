@@ -24,7 +24,8 @@ class Payout
             }
         }
         $endpoint = "/payout";
-        $this->local->curl($endpoint, "POST", $params);
+        $process = $this->local->curl($endpoint, "POST", $params);
+        return (array)$process;
     }
 
     public function payoutStatus($externalId)
