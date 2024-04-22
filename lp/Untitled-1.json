@@ -1,0 +1,42 @@
+{
+	"paymentMethod": {
+		"type": "DebitCard",
+		"code": "1005",
+		"flow": "DIRECT"
+	},
+	"externalId": "test_04",
+	"country": "ARG",
+	"amount": 1005,
+	"currency": "USD",
+	"accountNumber": "032.840.00000001",
+	"conceptCode": "0001",
+	"comment": "Add any relevant information related to the transaction",
+	"merchant": {
+		"type": "COMPANY",
+		"name": "Merchant's name",
+		"lastname": "",
+		"document": {
+			"type": "",
+			"id": ""
+		},
+		"email": ""
+	},
+	"payer": {
+		"type": "INDIVIDUAL",
+		"name": "Payer's name",
+		"lastname": "Payer's last name",
+		"document": {
+			"id": "37895247",
+			"type": "DNI"
+		},
+		"email": "payersemail@mail.com"
+	},
+	"card": {
+		"name": "Cardholder Name",
+		"number": "4517660144072542",
+		"cvv": "713",
+		"expirationMonth": "11",
+		"expirationYear": "2025",
+		"installments": "1"
+	}
+}

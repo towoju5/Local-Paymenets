@@ -1,0 +1,1470 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "code": "932",
+            "isoCode3": "ZWL",
+            "name": "Zimbabwean dollar",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 2,
+            "code": "360",
+            "isoCode3": "IDR",
+            "name": "Indonesian rupiah",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 3,
+            "code": "348",
+            "isoCode3": "HUF",
+            "name": "Hungarian forint",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 4,
+            "code": "332",
+            "isoCode3": "HTG",
+            "name": "Haitian gourde",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 5,
+            "code": "191",
+            "isoCode3": "HRK",
+            "name": "Croatian kuna",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 6,
+            "code": "340",
+            "isoCode3": "HNL",
+            "name": "Honduran lempira",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 7,
+            "code": "344",
+            "isoCode3": "HKD",
+            "name": "Hong Kong dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 8,
+            "code": "328",
+            "isoCode3": "GYD",
+            "name": "Guyanese dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 9,
+            "code": "320",
+            "isoCode3": "GTQ",
+            "name": "Guatemalan quetzal",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 10,
+            "code": "376",
+            "isoCode3": "ILS",
+            "name": "Israeli new shekel",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 11,
+            "code": "324",
+            "isoCode3": "GNF",
+            "name": "Guinean franc",
+            "decimals": 0,
+            "isEnabled": true
+        },
+        {
+            "id": 12,
+            "code": "292",
+            "isoCode3": "GIP",
+            "name": "Gibraltar pound",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 13,
+            "code": "936",
+            "isoCode3": "GHS",
+            "name": "Ghanaian cedi",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 14,
+            "code": "981",
+            "isoCode3": "GEL",
+            "name": "Georgian lari",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 15,
+            "code": "826",
+            "isoCode3": "GBP",
+            "name": "Pound sterling",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 16,
+            "code": "238",
+            "isoCode3": "FKP",
+            "name": "Falkland Islands pound",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 17,
+            "code": "242",
+            "isoCode3": "FJD",
+            "name": "Fiji dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 18,
+            "code": "978",
+            "isoCode3": "EUR",
+            "name": "Euro",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 19,
+            "code": "230",
+            "isoCode3": "ETB",
+            "name": "Ethiopian birr",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 20,
+            "code": "270",
+            "isoCode3": "GMD",
+            "name": "Gambian dalasi",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 21,
+            "code": "356",
+            "isoCode3": "INR",
+            "name": "Indian rupee",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 22,
+            "code": "368",
+            "isoCode3": "IQD",
+            "name": "Iraqi dinar",
+            "decimals": 3,
+            "isEnabled": false
+        },
+        {
+            "id": 23,
+            "code": "364",
+            "isoCode3": "IRR",
+            "name": "Iranian rial",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 24,
+            "code": "434",
+            "isoCode3": "LYD",
+            "name": "Libyan dinar",
+            "decimals": 3,
+            "isEnabled": false
+        },
+        {
+            "id": 25,
+            "code": "426",
+            "isoCode3": "LSL",
+            "name": "Lesotho loti",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 26,
+            "code": "430",
+            "isoCode3": "LRD",
+            "name": "Liberian dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 27,
+            "code": "144",
+            "isoCode3": "LKR",
+            "name": "Sri Lankan rupee",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 28,
+            "code": "422",
+            "isoCode3": "LBP",
+            "name": "Lebanese pound",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 29,
+            "code": "418",
+            "isoCode3": "LAK",
+            "name": "Lao kip",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 30,
+            "code": "398",
+            "isoCode3": "KZT",
+            "name": "Kazakhstani tenge",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 31,
+            "code": "136",
+            "isoCode3": "KYD",
+            "name": "Cayman Islands dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 32,
+            "code": "414",
+            "isoCode3": "KWD",
+            "name": "Kuwaiti dinar",
+            "decimals": 3,
+            "isEnabled": false
+        },
+        {
+            "id": 33,
+            "code": "410",
+            "isoCode3": "KRW",
+            "name": "South Korean won",
+            "decimals": 0,
+            "isEnabled": false
+        },
+        {
+            "id": 34,
+            "code": "408",
+            "isoCode3": "KPW",
+            "name": "North Korean won",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 35,
+            "code": "174",
+            "isoCode3": "KMF",
+            "name": "Comoro franc",
+            "decimals": 0,
+            "isEnabled": false
+        },
+        {
+            "id": 36,
+            "code": "116",
+            "isoCode3": "KHR",
+            "name": "Cambodian riel",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 37,
+            "code": "417",
+            "isoCode3": "KGS",
+            "name": "Kyrgyzstani som",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 38,
+            "code": "404",
+            "isoCode3": "KES",
+            "name": "Kenyan shilling",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 39,
+            "code": "392",
+            "isoCode3": "JPY",
+            "name": "Japanese yen",
+            "decimals": 0,
+            "isEnabled": false
+        },
+        {
+            "id": 40,
+            "code": "400",
+            "isoCode3": "JOD",
+            "name": "Jordanian dinar",
+            "decimals": 3,
+            "isEnabled": false
+        },
+        {
+            "id": 41,
+            "code": "388",
+            "isoCode3": "JMD",
+            "name": "Jamaican dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 42,
+            "code": "352",
+            "isoCode3": "ISK",
+            "name": "Icelandic króna",
+            "decimals": 0,
+            "isEnabled": false
+        },
+        {
+            "id": 43,
+            "code": "232",
+            "isoCode3": "ERN",
+            "name": "Eritrean nakfa",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 44,
+            "code": "504",
+            "isoCode3": "MAD",
+            "name": "Moroccan dirham",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 45,
+            "code": "818",
+            "isoCode3": "EGP",
+            "name": "Egyptian pound",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 46,
+            "code": "214",
+            "isoCode3": "DOP",
+            "name": "Dominican peso",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 47,
+            "code": "984",
+            "isoCode3": "BOV",
+            "name": "Bolivian Mvdol (funds code)",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 48,
+            "code": "068",
+            "isoCode3": "BOB",
+            "name": "Boliviano",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 49,
+            "code": "096",
+            "isoCode3": "BND",
+            "name": "Brunei dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 50,
+            "code": "060",
+            "isoCode3": "BMD",
+            "name": "Bermudian dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 51,
+            "code": "108",
+            "isoCode3": "BIF",
+            "name": "Burundian franc",
+            "decimals": 0,
+            "isEnabled": false
+        },
+        {
+            "id": 52,
+            "code": "048",
+            "isoCode3": "BHD",
+            "name": "Bahraini dinar",
+            "decimals": 3,
+            "isEnabled": false
+        },
+        {
+            "id": 53,
+            "code": "975",
+            "isoCode3": "BGN",
+            "name": "Bulgarian lev",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 54,
+            "code": "050",
+            "isoCode3": "BDT",
+            "name": "Bangladeshi taka",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 55,
+            "code": "986",
+            "isoCode3": "BRL",
+            "name": "Brazilian real",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 56,
+            "code": "052",
+            "isoCode3": "BBD",
+            "name": "Barbados dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 57,
+            "code": "944",
+            "isoCode3": "AZN",
+            "name": "Azerbaijani manat",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 58,
+            "code": "533",
+            "isoCode3": "AWG",
+            "name": "Aruban florin",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 59,
+            "code": "036",
+            "isoCode3": "AUD",
+            "name": "Australian dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 60,
+            "code": "032",
+            "isoCode3": "ARS",
+            "name": "Argentine peso",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 61,
+            "code": "973",
+            "isoCode3": "AOA",
+            "name": "Angolan kwanza",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 62,
+            "code": "532",
+            "isoCode3": "ANG",
+            "name": "Netherlands Antillean guilder",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 63,
+            "code": "051",
+            "isoCode3": "AMD",
+            "name": "Armenian dram",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 64,
+            "code": "008",
+            "isoCode3": "ALL",
+            "name": "Albanian lek",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 65,
+            "code": "977",
+            "isoCode3": "BAM",
+            "name": "Bosnia and Herzegovina convertible mark",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 66,
+            "code": "044",
+            "isoCode3": "BSD",
+            "name": "Bahamian dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 67,
+            "code": "064",
+            "isoCode3": "BTN",
+            "name": "Bhutanese ngultrum",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 68,
+            "code": "072",
+            "isoCode3": "BWP",
+            "name": "Botswana pula",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 69,
+            "code": "208",
+            "isoCode3": "DKK",
+            "name": "Danish krone",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 70,
+            "code": "262",
+            "isoCode3": "DJF",
+            "name": "Djiboutian franc",
+            "decimals": 0,
+            "isEnabled": false
+        },
+        {
+            "id": 71,
+            "code": "203",
+            "isoCode3": "CZK",
+            "name": "Czech koruna",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 72,
+            "code": "132",
+            "isoCode3": "CVE",
+            "name": "Cape Verdean escudo",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 73,
+            "code": "192",
+            "isoCode3": "CUP",
+            "name": "Cuban peso",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 74,
+            "code": "931",
+            "isoCode3": "CUC",
+            "name": "Cuban convertible peso",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 75,
+            "code": "188",
+            "isoCode3": "CRC",
+            "name": "Costa Rican colon",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 76,
+            "code": "970",
+            "isoCode3": "COU",
+            "name": "Unidad de Valor Real (UVR) (funds code)[9]",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 77,
+            "code": "170",
+            "isoCode3": "COP",
+            "name": "Colombian peso",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 78,
+            "code": "156",
+            "isoCode3": "CNY",
+            "name": "Chinese yuan[8]",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 79,
+            "code": "152",
+            "isoCode3": "CLP",
+            "name": "Chilean peso",
+            "decimals": 0,
+            "isEnabled": true
+        },
+        {
+            "id": 80,
+            "code": "990",
+            "isoCode3": "CLF",
+            "name": "Unidad de Fomento (funds code)",
+            "decimals": 4,
+            "isEnabled": false
+        },
+        {
+            "id": 81,
+            "code": "948",
+            "isoCode3": "CHW",
+            "name": "WIR franc (complementary currency)",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 82,
+            "code": "756",
+            "isoCode3": "CHF",
+            "name": "Swiss franc",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 83,
+            "code": "947",
+            "isoCode3": "CHE",
+            "name": "WIR euro (complementary currency)",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 84,
+            "code": "976",
+            "isoCode3": "CDF",
+            "name": "Congolese franc",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 85,
+            "code": "124",
+            "isoCode3": "CAD",
+            "name": "Canadian dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 86,
+            "code": "084",
+            "isoCode3": "BZD",
+            "name": "Belize dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 87,
+            "code": "933",
+            "isoCode3": "BYN",
+            "name": "Belarusian ruble",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 88,
+            "code": "012",
+            "isoCode3": "DZD",
+            "name": "Algerian dinar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 89,
+            "code": "971",
+            "isoCode3": "AFN",
+            "name": "Afghan afghani",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 90,
+            "code": "498",
+            "isoCode3": "MDL",
+            "name": "Moldovan leu",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 91,
+            "code": "807",
+            "isoCode3": "MKD",
+            "name": "Macedonian denar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 92,
+            "code": "928",
+            "isoCode3": "VES",
+            "name": "Venezuelan bolívar soberano[12]",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 93,
+            "code": "860",
+            "isoCode3": "UZS",
+            "name": "Uzbekistan som",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 94,
+            "code": "927",
+            "isoCode3": "UYW",
+            "name": "Unidad previsional[14]",
+            "decimals": 4,
+            "isEnabled": false
+        },
+        {
+            "id": 95,
+            "code": "858",
+            "isoCode3": "UYU",
+            "name": "Uruguayan peso",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 96,
+            "code": "940",
+            "isoCode3": "UYI",
+            "name": "Uruguay Peso en Unidades Indexadas (URUIURUI) (funds code)",
+            "decimals": 0,
+            "isEnabled": false
+        },
+        {
+            "id": 97,
+            "code": "997",
+            "isoCode3": "USN",
+            "name": "United States dollar (next day) (funds code)",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 98,
+            "code": "840",
+            "isoCode3": "USD",
+            "name": "United States dollar",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 99,
+            "code": "800",
+            "isoCode3": "UGX",
+            "name": "Ugandan shilling",
+            "decimals": 0,
+            "isEnabled": true
+        },
+        {
+            "id": 100,
+            "code": "704",
+            "isoCode3": "VND",
+            "name": "Vietnamese đồng",
+            "decimals": 0,
+            "isEnabled": false
+        },
+        {
+            "id": 101,
+            "code": "980",
+            "isoCode3": "UAH",
+            "name": "Ukrainian hryvnia",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 102,
+            "code": "901",
+            "isoCode3": "TWD",
+            "name": "New Taiwan dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 103,
+            "code": "780",
+            "isoCode3": "TTD",
+            "name": "Trinidad and Tobago dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 104,
+            "code": "949",
+            "isoCode3": "TRY",
+            "name": "Turkish lira",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 105,
+            "code": "776",
+            "isoCode3": "TOP",
+            "name": "Tongan paʻanga",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 106,
+            "code": "788",
+            "isoCode3": "TND",
+            "name": "Tunisian dinar",
+            "decimals": 3,
+            "isEnabled": false
+        },
+        {
+            "id": 107,
+            "code": "934",
+            "isoCode3": "TMT",
+            "name": "Turkmenistan manat",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 108,
+            "code": "972",
+            "isoCode3": "TJS",
+            "name": "Tajikistani somoni",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 109,
+            "code": "764",
+            "isoCode3": "THB",
+            "name": "Thai baht",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 110,
+            "code": "834",
+            "isoCode3": "TZS",
+            "name": "Tanzanian shilling",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 111,
+            "code": "548",
+            "isoCode3": "VUV",
+            "name": "Vanuatu vatu",
+            "decimals": 0,
+            "isEnabled": false
+        },
+        {
+            "id": 112,
+            "code": "882",
+            "isoCode3": "WST",
+            "name": "Samoan tala",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 113,
+            "code": "950",
+            "isoCode3": "XAF",
+            "name": "CFA franc BEAC",
+            "decimals": 0,
+            "isEnabled": true
+        },
+        {
+            "id": 114,
+            "code": "967",
+            "isoCode3": "ZMW",
+            "name": "Zambian kwacha",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 115,
+            "code": "710",
+            "isoCode3": "ZAR",
+            "name": "South African rand",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 116,
+            "code": "886",
+            "isoCode3": "YER",
+            "name": "Yemeni rial",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 117,
+            "code": "999",
+            "isoCode3": "XXX",
+            "name": "No currency",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 118,
+            "code": "965",
+            "isoCode3": "XUA",
+            "name": "ADB Unit of Account",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 119,
+            "code": "963",
+            "isoCode3": "XTS",
+            "name": "Code reserved for testing",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 120,
+            "code": "994",
+            "isoCode3": "XSU",
+            "name": "SUCRE",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 121,
+            "code": "962",
+            "isoCode3": "XPT",
+            "name": "Platinum (one troy ounce)",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 122,
+            "code": "953",
+            "isoCode3": "XPF",
+            "name": "CFP franc (franc Pacifique)",
+            "decimals": 0,
+            "isEnabled": false
+        },
+        {
+            "id": 123,
+            "code": "964",
+            "isoCode3": "XPD",
+            "name": "Palladium (one troy ounce)",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 124,
+            "code": "952",
+            "isoCode3": "XOF",
+            "name": "CFA franc BCEAO",
+            "decimals": 0,
+            "isEnabled": true
+        },
+        {
+            "id": 125,
+            "code": "960",
+            "isoCode3": "XDR",
+            "name": "Special drawing rights",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 126,
+            "code": "951",
+            "isoCode3": "XCD",
+            "name": "East Caribbean dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 127,
+            "code": "958",
+            "isoCode3": "XBD",
+            "name": "European Unit of Account 17 (E.U.A.-17) (bond market unit)",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 128,
+            "code": "957",
+            "isoCode3": "XBC",
+            "name": "European Unit of Account 9 (E.U.A.-9) (bond market unit)",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 129,
+            "code": "956",
+            "isoCode3": "XBB",
+            "name": "European Monetary Unit (E.M.U.-6) (bond market unit)",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 130,
+            "code": "955",
+            "isoCode3": "XBA",
+            "name": "European Composite Unit (EURCO) (bond market unit)",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 131,
+            "code": "959",
+            "isoCode3": "XAU",
+            "name": "Gold (one troy ounce)",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 132,
+            "code": "961",
+            "isoCode3": "XAG",
+            "name": "Silver (one troy ounce)",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 133,
+            "code": "748",
+            "isoCode3": "SZL",
+            "name": "Swazi lilangeni",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 134,
+            "code": "969",
+            "isoCode3": "MGA",
+            "name": "Malagasy ariary",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 135,
+            "code": "760",
+            "isoCode3": "SYP",
+            "name": "Syrian pound",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 136,
+            "code": "930",
+            "isoCode3": "STN[13]",
+            "name": "São Tomé and Príncipe dobra",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 137,
+            "code": "512",
+            "isoCode3": "OMR",
+            "name": "Omani rial",
+            "decimals": 3,
+            "isEnabled": false
+        },
+        {
+            "id": 138,
+            "code": "554",
+            "isoCode3": "NZD",
+            "name": "New Zealand dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 139,
+            "code": "524",
+            "isoCode3": "NPR",
+            "name": "Nepalese rupee",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 140,
+            "code": "578",
+            "isoCode3": "NOK",
+            "name": "Norwegian krone",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 141,
+            "code": "558",
+            "isoCode3": "NIO",
+            "name": "Nicaraguan córdoba",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 142,
+            "code": "566",
+            "isoCode3": "NGN",
+            "name": "Nigerian naira",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 143,
+            "code": "516",
+            "isoCode3": "NAD",
+            "name": "Namibian dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 144,
+            "code": "943",
+            "isoCode3": "MZN",
+            "name": "Mozambican metical",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 145,
+            "code": "590",
+            "isoCode3": "PAB",
+            "name": "Panamanian balboa",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 146,
+            "code": "458",
+            "isoCode3": "MYR",
+            "name": "Malaysian ringgit",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 147,
+            "code": "484",
+            "isoCode3": "MXN",
+            "name": "Mexican peso",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 148,
+            "code": "454",
+            "isoCode3": "MWK",
+            "name": "Malawian kwacha",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 149,
+            "code": "462",
+            "isoCode3": "MVR",
+            "name": "Maldivian rufiyaa",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 150,
+            "code": "480",
+            "isoCode3": "MUR",
+            "name": "Mauritian rupee",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 151,
+            "code": "929",
+            "isoCode3": "MRU[11]",
+            "name": "Mauritanian ouguiya",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 152,
+            "code": "446",
+            "isoCode3": "MOP",
+            "name": "Macanese pataca",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 153,
+            "code": "496",
+            "isoCode3": "MNT",
+            "name": "Mongolian tögrög",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 154,
+            "code": "104",
+            "isoCode3": "MMK",
+            "name": "Myanmar kyat",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 155,
+            "code": "979",
+            "isoCode3": "MXV",
+            "name": "Mexican Unidad de Inversion (UDI) (funds code)",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 156,
+            "code": "604",
+            "isoCode3": "PEN",
+            "name": "Peruvian sol",
+            "decimals": 2,
+            "isEnabled": true
+        },
+        {
+            "id": 157,
+            "code": "598",
+            "isoCode3": "PGK",
+            "name": "Papua New Guinean kina",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 158,
+            "code": "608",
+            "isoCode3": "PHP",
+            "name": "Philippine peso[12]",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 159,
+            "code": "728",
+            "isoCode3": "SSP",
+            "name": "South Sudanese pound",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 160,
+            "code": "968",
+            "isoCode3": "SRD",
+            "name": "Surinamese dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 161,
+            "code": "706",
+            "isoCode3": "SOS",
+            "name": "Somali shilling",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 162,
+            "code": "694",
+            "isoCode3": "SLL",
+            "name": "Sierra Leonean leone",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 163,
+            "code": "654",
+            "isoCode3": "SHP",
+            "name": "Saint Helena pound",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 164,
+            "code": "702",
+            "isoCode3": "SGD",
+            "name": "Singapore dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 165,
+            "code": "752",
+            "isoCode3": "SEK",
+            "name": "Swedish krona/kronor",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 166,
+            "code": "938",
+            "isoCode3": "SDG",
+            "name": "Sudanese pound",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 167,
+            "code": "690",
+            "isoCode3": "SCR",
+            "name": "Seychelles rupee",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 168,
+            "code": "090",
+            "isoCode3": "SBD",
+            "name": "Solomon Islands dollar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 169,
+            "code": "682",
+            "isoCode3": "SAR",
+            "name": "Saudi riyal",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 170,
+            "code": "646",
+            "isoCode3": "RWF",
+            "name": "Rwandan franc",
+            "decimals": 0,
+            "isEnabled": false
+        },
+        {
+            "id": 171,
+            "code": "643",
+            "isoCode3": "RUB",
+            "name": "Russian ruble",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 172,
+            "code": "941",
+            "isoCode3": "RSD",
+            "name": "Serbian dinar",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 173,
+            "code": "946",
+            "isoCode3": "RON",
+            "name": "Romanian leu",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 174,
+            "code": "634",
+            "isoCode3": "QAR",
+            "name": "Qatari riyal",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 175,
+            "code": "600",
+            "isoCode3": "PYG",
+            "name": "Paraguayan guaraní",
+            "decimals": 0,
+            "isEnabled": true
+        },
+        {
+            "id": 176,
+            "code": "985",
+            "isoCode3": "PLN",
+            "name": "Polish złoty",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 177,
+            "code": "586",
+            "isoCode3": "PKR",
+            "name": "Pakistani rupee",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 178,
+            "code": "222",
+            "isoCode3": "SVC",
+            "name": "Salvadoran colón",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 179,
+            "code": "784",
+            "isoCode3": "AED",
+            "name": "United Arab Emirates dirham",
+            "decimals": 2,
+            "isEnabled": false
+        },
+        {
+            "id": 180,
+            "code": "1002",
+            "isoCode3": "ETH",
+            "name": "Ethereum",
+            "decimals": 8,
+            "isEnabled": true
+        },
+        {
+            "id": 181,
+            "code": "1001",
+            "isoCode3": "BTC",
+            "name": "BTC",
+            "decimals": 8,
+            "isEnabled": true
+        },
+        {
+            "id": 182,
+            "code": "99",
+            "isoCode3": "USDT",
+            "name": "asd",
+            "decimals": 4,
+            "isEnabled": true
+        },
+        {
+            "id": 183,
+            "code": "111",
+            "isoCode3": "YAM",
+            "name": "yamicoin",
+            "decimals": 1,
+            "isEnabled": false
+        }
+    ],
+    "total": 183,
+    "offset": 0
+}

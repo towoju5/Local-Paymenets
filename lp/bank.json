@@ -1,0 +1,1542 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "code": "999",
+            "isoCode2": "GO",
+            "isoCode3": "GLO",
+            "name": "Global",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                },
+                {
+                    "id": 18,
+                    "code": "978",
+                    "isoCode3": "EUR",
+                    "name": "Euro",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 98,
+            "localCurrency": {
+                "id": 98,
+                "code": "840",
+                "isoCode3": "USD",
+                "name": "United States dollar",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 4,
+            "code": "558",
+            "isoCode2": "NI",
+            "isoCode3": "NIC",
+            "name": "Nicaragua",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 141,
+                    "code": "558",
+                    "isoCode3": "NIO",
+                    "name": "Nicaraguan córdoba",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 141,
+            "localCurrency": {
+                "id": 141,
+                "code": "558",
+                "isoCode3": "NIO",
+                "name": "Nicaraguan córdoba",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 6,
+            "code": "566",
+            "isoCode2": "NG",
+            "isoCode3": "NGA",
+            "name": "Nigeria",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 142,
+                    "code": "566",
+                    "isoCode3": "NGN",
+                    "name": "Nigerian naira",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 142,
+            "localCurrency": {
+                "id": 142,
+                "code": "566",
+                "isoCode3": "NGN",
+                "name": "Nigerian naira",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 16,
+            "code": "591",
+            "isoCode2": "PA",
+            "isoCode3": "PAN",
+            "name": "Panama",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 145,
+                    "code": "590",
+                    "isoCode3": "PAB",
+                    "name": "Panamanian balboa",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 98,
+            "localCurrency": {
+                "id": 98,
+                "code": "840",
+                "isoCode3": "USD",
+                "name": "United States dollar",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 18,
+            "code": "600",
+            "isoCode2": "PY",
+            "isoCode3": "PRY",
+            "name": "Paraguay",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 175,
+                    "code": "600",
+                    "isoCode3": "PYG",
+                    "name": "Paraguayan guaraní",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 175,
+            "localCurrency": {
+                "id": 175,
+                "code": "600",
+                "isoCode3": "PYG",
+                "name": "Paraguayan guaraní",
+                "decimals": 0,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 19,
+            "code": "604",
+            "isoCode2": "PE",
+            "isoCode3": "PER",
+            "name": "Peru",
+            "bicCode": "LPAYPEPL",
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 156,
+                    "code": "604",
+                    "isoCode3": "PEN",
+                    "name": "Peruvian sol",
+                    "isActive": true
+                },
+                {
+                    "id": 18,
+                    "code": "978",
+                    "isoCode3": "EUR",
+                    "name": "Euro",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 156,
+            "localCurrency": {
+                "id": 156,
+                "code": "604",
+                "isoCode3": "PEN",
+                "name": "Peruvian sol",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 40,
+            "code": "454",
+            "isoCode2": "MW",
+            "isoCode3": "MWI",
+            "name": "Malawi",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 148,
+                    "code": "454",
+                    "isoCode3": "MWK",
+                    "name": "Malawian kwacha",
+                    "isActive": true
+                },
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 148,
+            "localCurrency": {
+                "id": 148,
+                "code": "454",
+                "isoCode3": "MWK",
+                "name": "Malawian kwacha",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 43,
+            "code": "466",
+            "isoCode2": "ML",
+            "isoCode3": "MLI",
+            "name": "Mali",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 124,
+                    "code": "952",
+                    "isoCode3": "XOF",
+                    "name": "CFA franc BCEAO",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 124,
+            "localCurrency": {
+                "id": 124,
+                "code": "952",
+                "isoCode3": "XOF",
+                "name": "CFA franc BCEAO",
+                "decimals": 0,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 50,
+            "code": "484",
+            "isoCode2": "MX",
+            "isoCode3": "MEX",
+            "name": "Mexico",
+            "bicCode": "LPPAYMXN",
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 18,
+                    "code": "978",
+                    "isoCode3": "EUR",
+                    "name": "Euro",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 147,
+                    "code": "484",
+                    "isoCode3": "MXN",
+                    "name": "Mexican peso",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 147,
+            "localCurrency": {
+                "id": 147,
+                "code": "484",
+                "isoCode3": "MXN",
+                "name": "Mexican peso",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 57,
+            "code": "504",
+            "isoCode2": "MA",
+            "isoCode3": "MAR",
+            "name": "Morocco",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 44,
+                    "code": "504",
+                    "isoCode3": "MAD",
+                    "name": "Moroccan dirham",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 98,
+            "localCurrency": {
+                "id": 98,
+                "code": "840",
+                "isoCode3": "USD",
+                "name": "United States dollar",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 58,
+            "code": "508",
+            "isoCode2": "MZ",
+            "isoCode3": "MOZ",
+            "name": "Mozambique",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 144,
+                    "code": "943",
+                    "isoCode3": "MZN",
+                    "name": "Mozambican metical",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 144,
+            "localCurrency": {
+                "id": 144,
+                "code": "943",
+                "isoCode3": "MZN",
+                "name": "Mozambican metical",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 75,
+            "code": "800",
+            "isoCode2": "UG",
+            "isoCode3": "UGA",
+            "name": "Uganda",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 99,
+                    "code": "800",
+                    "isoCode3": "UGX",
+                    "name": "Ugandan shilling",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 99,
+            "localCurrency": {
+                "id": 99,
+                "code": "800",
+                "isoCode3": "UGX",
+                "name": "Ugandan shilling",
+                "decimals": 0,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 79,
+            "code": "840",
+            "isoCode2": "US",
+            "isoCode3": "USA",
+            "name": "United States of America",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 98,
+            "localCurrency": {
+                "id": 98,
+                "code": "840",
+                "isoCode3": "USD",
+                "name": "United States dollar",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 81,
+            "code": "858",
+            "isoCode2": "UY",
+            "isoCode3": "URY",
+            "name": "Uruguay",
+            "bicCode": "LPPAYURY",
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 95,
+                    "code": "858",
+                    "isoCode3": "UYU",
+                    "name": "Uruguayan peso",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 18,
+                    "code": "978",
+                    "isoCode3": "EUR",
+                    "name": "Euro",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 95,
+            "localCurrency": {
+                "id": 95,
+                "code": "858",
+                "isoCode3": "UYU",
+                "name": "Uruguayan peso",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 91,
+            "code": "834",
+            "isoCode2": "TZ",
+            "isoCode3": "TZA",
+            "name": "Tanzania, United Republic of",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 110,
+                    "code": "834",
+                    "isoCode3": "TZS",
+                    "name": "Tanzanian shilling",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 110,
+            "localCurrency": {
+                "id": 110,
+                "code": "834",
+                "isoCode3": "TZS",
+                "name": "Tanzanian shilling",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 103,
+            "code": "686",
+            "isoCode2": "SN",
+            "isoCode3": "SEN",
+            "name": "Senegal",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 124,
+                    "code": "952",
+                    "isoCode3": "XOF",
+                    "name": "CFA franc BCEAO",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 124,
+            "localCurrency": {
+                "id": 124,
+                "code": "952",
+                "isoCode3": "XOF",
+                "name": "CFA franc BCEAO",
+                "decimals": 0,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 113,
+            "code": "710",
+            "isoCode2": "ZA",
+            "isoCode3": "ZAF",
+            "name": "South Africa",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 115,
+                    "code": "710",
+                    "isoCode3": "ZAR",
+                    "name": "South African rand",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 115,
+            "localCurrency": {
+                "id": 115,
+                "code": "710",
+                "isoCode3": "ZAR",
+                "name": "South African rand",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 130,
+            "code": "854",
+            "isoCode2": "BF",
+            "isoCode3": "BFA",
+            "name": "Burkina Faso",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 124,
+                    "code": "952",
+                    "isoCode3": "XOF",
+                    "name": "CFA franc BCEAO",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 113,
+            "localCurrency": {
+                "id": 113,
+                "code": "950",
+                "isoCode3": "XAF",
+                "name": "CFA franc BEAC",
+                "decimals": 0,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 134,
+            "code": "120",
+            "isoCode2": "CM",
+            "isoCode3": "CMR",
+            "name": "Cameroon",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 113,
+                    "code": "950",
+                    "isoCode3": "XAF",
+                    "name": "CFA franc BEAC",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 113,
+            "localCurrency": {
+                "id": 113,
+                "code": "950",
+                "isoCode3": "XAF",
+                "name": "CFA franc BEAC",
+                "decimals": 0,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 139,
+            "code": "152",
+            "isoCode2": "CL",
+            "isoCode3": "CHL",
+            "name": "Chile",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 79,
+                    "code": "152",
+                    "isoCode3": "CLP",
+                    "name": "Chilean peso",
+                    "isActive": true
+                },
+                {
+                    "id": 18,
+                    "code": "978",
+                    "isoCode3": "EUR",
+                    "name": "Euro",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 79,
+            "localCurrency": {
+                "id": 79,
+                "code": "152",
+                "isoCode3": "CLP",
+                "name": "Chilean peso",
+                "decimals": 0,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 143,
+            "code": "170",
+            "isoCode2": "CO",
+            "isoCode3": "COL",
+            "name": "Colombia",
+            "bicCode": "LOCPACOL",
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 18,
+                    "code": "978",
+                    "isoCode3": "EUR",
+                    "name": "Euro",
+                    "isActive": true
+                },
+                {
+                    "id": 77,
+                    "code": "170",
+                    "isoCode3": "COP",
+                    "name": "Colombian peso",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 77,
+            "localCurrency": {
+                "id": 77,
+                "code": "170",
+                "isoCode3": "COP",
+                "name": "Colombian peso",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 148,
+            "code": "188",
+            "isoCode2": "CR",
+            "isoCode3": "CRI",
+            "name": "Costa Rica",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 75,
+                    "code": "188",
+                    "isoCode3": "CRC",
+                    "name": "Costa Rican colon",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 75,
+            "localCurrency": {
+                "id": 75,
+                "code": "188",
+                "isoCode3": "CRC",
+                "name": "Costa Rican colon",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 149,
+            "code": "384",
+            "isoCode2": "CI",
+            "isoCode3": "CIV",
+            "name": "Côte d'Ivoire",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 124,
+                    "code": "952",
+                    "isoCode3": "XOF",
+                    "name": "CFA franc BCEAO",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 124,
+            "localCurrency": {
+                "id": 124,
+                "code": "952",
+                "isoCode3": "XOF",
+                "name": "CFA franc BCEAO",
+                "decimals": 0,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 154,
+            "code": "076",
+            "isoCode2": "BR",
+            "isoCode3": "BRA",
+            "name": "Brazil",
+            "bicCode": "LPAYBRBR",
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 15,
+                    "code": "826",
+                    "isoCode3": "GBP",
+                    "name": "Pound sterling",
+                    "isActive": true
+                },
+                {
+                    "id": 18,
+                    "code": "978",
+                    "isoCode3": "EUR",
+                    "name": "Euro",
+                    "isActive": true
+                },
+                {
+                    "id": 55,
+                    "code": "986",
+                    "isoCode3": "BRL",
+                    "name": "Brazilian real",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 55,
+            "localCurrency": {
+                "id": 55,
+                "code": "986",
+                "isoCode3": "BRL",
+                "name": "Brazilian real",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 156,
+            "code": "072",
+            "isoCode2": "BW",
+            "isoCode3": "BWA",
+            "name": "Botswana",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 68,
+                    "code": "072",
+                    "isoCode3": "BWP",
+                    "name": "Botswana pula",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 68,
+            "localCurrency": {
+                "id": 68,
+                "code": "072",
+                "isoCode3": "BWP",
+                "name": "Botswana pula",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 168,
+            "code": "032",
+            "isoCode2": "AR",
+            "isoCode3": "ARG",
+            "name": "Argentina",
+            "bicCode": "LPAYARBA",
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 60,
+                    "code": "032",
+                    "isoCode3": "ARS",
+                    "name": "Argentine peso",
+                    "isActive": true
+                },
+                {
+                    "id": 18,
+                    "code": "978",
+                    "isoCode3": "EUR",
+                    "name": "Euro",
+                    "isActive": true
+                },
+                {
+                    "id": 181,
+                    "code": "1001",
+                    "isoCode3": "BTC",
+                    "name": "BTC",
+                    "isActive": true
+                },
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 60,
+            "localCurrency": {
+                "id": 60,
+                "code": "032",
+                "isoCode3": "ARS",
+                "name": "Argentine peso",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 184,
+            "code": "068",
+            "isoCode2": "BO",
+            "isoCode3": "BOL",
+            "name": "Bolivia",
+            "bicCode": "554635",
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 48,
+                    "code": "068",
+                    "isoCode3": "BOB",
+                    "name": "Boliviano",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 48,
+            "localCurrency": {
+                "id": 48,
+                "code": "068",
+                "isoCode3": "BOB",
+                "name": "Boliviano",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 187,
+            "code": "894",
+            "isoCode2": "ZM",
+            "isoCode3": "ZMB",
+            "name": "Zambia",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 114,
+                    "code": "967",
+                    "isoCode3": "ZMW",
+                    "name": "Zambian kwacha",
+                    "isActive": true
+                },
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 114,
+            "localCurrency": {
+                "id": 114,
+                "code": "967",
+                "isoCode3": "ZMW",
+                "name": "Zambian kwacha",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 194,
+            "code": "340",
+            "isoCode2": "HN",
+            "isoCode3": "HND",
+            "name": "Honduras",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 6,
+                    "code": "340",
+                    "isoCode3": "HNL",
+                    "name": "Honduran lempira",
+                    "isActive": true
+                },
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 6,
+            "localCurrency": {
+                "id": 6,
+                "code": "340",
+                "isoCode3": "HNL",
+                "name": "Honduran lempira",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 211,
+            "code": "404",
+            "isoCode2": "KE",
+            "isoCode3": "KEN",
+            "name": "Kenya",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 38,
+                    "code": "404",
+                    "isoCode3": "KES",
+                    "name": "Kenyan shilling",
+                    "isActive": true
+                },
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 38,
+            "localCurrency": {
+                "id": 38,
+                "code": "404",
+                "isoCode3": "KES",
+                "name": "Kenyan shilling",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 218,
+            "code": "324",
+            "isoCode2": "GN",
+            "isoCode3": "GIN",
+            "name": "Guinea",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 11,
+                    "code": "324",
+                    "isoCode3": "GNF",
+                    "name": "Guinean franc",
+                    "isActive": true
+                },
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 124,
+            "localCurrency": {
+                "id": 124,
+                "code": "952",
+                "isoCode3": "XOF",
+                "name": "CFA franc BCEAO",
+                "decimals": 0,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 220,
+            "code": "320",
+            "isoCode2": "GT",
+            "isoCode3": "GTM",
+            "name": "Guatemala",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 9,
+                    "code": "320",
+                    "isoCode3": "GTQ",
+                    "name": "Guatemalan quetzal",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 9,
+            "localCurrency": {
+                "id": 9,
+                "code": "320",
+                "isoCode3": "GTQ",
+                "name": "Guatemalan quetzal",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 221,
+            "code": "214",
+            "isoCode2": "DO",
+            "isoCode3": "DOM",
+            "name": "Dominican Republic",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 46,
+                    "code": "214",
+                    "isoCode3": "DOP",
+                    "name": "Dominican peso",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 46,
+            "localCurrency": {
+                "id": 46,
+                "code": "214",
+                "isoCode3": "DOP",
+                "name": "Dominican peso",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 222,
+            "code": "218",
+            "isoCode2": "EC",
+            "isoCode3": "ECU",
+            "name": "Ecuador",
+            "bicCode": "LPAYECEQ",
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 18,
+                    "code": "978",
+                    "isoCode3": "EUR",
+                    "name": "Euro",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 98,
+            "localCurrency": {
+                "id": 98,
+                "code": "840",
+                "isoCode3": "USD",
+                "name": "United States dollar",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 223,
+            "code": "818",
+            "isoCode2": "EG",
+            "isoCode3": "EGY",
+            "name": "Egypt",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 45,
+                    "code": "818",
+                    "isoCode3": "EGP",
+                    "name": "Egyptian pound",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 45,
+            "localCurrency": {
+                "id": 45,
+                "code": "818",
+                "isoCode3": "EGP",
+                "name": "Egyptian pound",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 224,
+            "code": "222",
+            "isoCode2": "SV",
+            "isoCode3": "SLV",
+            "name": "El Salvador",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 98,
+            "localCurrency": {
+                "id": 98,
+                "code": "840",
+                "isoCode3": "USD",
+                "name": "United States dollar",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 229,
+            "code": "231",
+            "isoCode2": "ET",
+            "isoCode3": "ETH",
+            "name": "Ethiopia",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                },
+                {
+                    "id": 19,
+                    "code": "230",
+                    "isoCode3": "ETB",
+                    "name": "Ethiopian birr",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 19,
+            "localCurrency": {
+                "id": 19,
+                "code": "230",
+                "isoCode3": "ETB",
+                "name": "Ethiopian birr",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 242,
+            "code": "288",
+            "isoCode2": "GH",
+            "isoCode3": "GHA",
+            "name": "Ghana",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                },
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 13,
+                    "code": "936",
+                    "isoCode3": "GHS",
+                    "name": "Ghanaian cedi",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 13,
+            "localCurrency": {
+                "id": 13,
+                "code": "936",
+                "isoCode3": "GHS",
+                "name": "Ghanaian cedi",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        },
+        {
+            "id": 250,
+            "code": "716",
+            "isoCode2": "ZW",
+            "isoCode3": "ZWE",
+            "name": "Zimbabwe",
+            "bicCode": null,
+            "isEnabled": true,
+            "currencies": [
+                {
+                    "id": 98,
+                    "code": "840",
+                    "isoCode3": "USD",
+                    "name": "United States dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 1,
+                    "code": "932",
+                    "isoCode3": "ZWL",
+                    "name": "Zimbabwean dollar",
+                    "isActive": true
+                },
+                {
+                    "id": 182,
+                    "code": "99",
+                    "isoCode3": "USDT",
+                    "name": "asd",
+                    "isActive": true
+                }
+            ],
+            "localCurrencyId": 1,
+            "localCurrency": {
+                "id": 1,
+                "code": "932",
+                "isoCode3": "ZWL",
+                "name": "Zimbabwean dollar",
+                "decimals": 2,
+                "isEnabled": true
+            }
+        }
+    ],
+    "total": 39,
+    "offset": 0
+}

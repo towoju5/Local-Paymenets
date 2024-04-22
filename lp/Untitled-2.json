@@ -1,0 +1,47 @@
+{
+	"paymentMethod": {
+		"type": "BankTransfer",
+		"code": "1313",
+		"flow": "DIRECT"
+	},
+	"externalId": "test_01",
+	"country": "BRA",
+	"amount": 1000,
+	"currency": "BRL",
+	"exchangeRateToken": "76b54005-01a4-4b0c-8cd8-c51d31828b43",
+	"accountNumber": "076.986.00000001",
+	"conceptCode": "0003",
+	"comment": "Add any relevant information related to the transaction",
+	"merchant": {
+		"type": "INDIVIDUAL",
+		"name": "Merchant's name",
+		"lastname": "Merchant's last name",
+		"document": {
+			"type": "",
+			"id": ""
+		},
+		"email": ""
+	},
+	"payer": {
+		"type": "INDIVIDUAL",
+		"name": "Payer's name",
+		"lastname": "Payer's last name",
+		"document": {
+			"id": "11.111.111/0001-56",
+			"type": "CNPJ"
+		},
+		"email": "payer@email.com",
+		"bank": {
+			"name": "Account holder name",
+			"code": "341",
+			"branch": {
+				"code": "1234",
+				"name": "ITAU"
+			},
+			"account": {
+				"type": "s",
+				"number": "123456"
+			}
+		}
+	}
+}

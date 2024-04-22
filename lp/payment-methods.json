@@ -1,0 +1,92 @@
+[
+    {
+        "country_name": "Argentina",
+        "payment_code": "0010",
+        "country_currency": "ARS",
+        "payment_network": "INTERBANKING"
+    },
+    {
+        "country_name": "Bolivia",
+        "payment_code": "0020",
+        "country_currency": "BOB",
+        "payment_network": "ACH"
+    },
+    {
+        "country_name": "Brazil",
+        "payment_code": "0030",
+        "country_currency": "BRL",
+        "payment_network": "TED"
+    },
+    {
+        "country_name": "Brazil",
+        "payment_code": "0031",
+        "country_currency": "BRL",
+        "payment_network": "PIX"
+    },
+    {
+        "country_name": "Colombia",
+        "payment_code": "0060",
+        "country_currency": "COP",
+        "payment_network": "ACH"
+    },
+    {
+        "country_name": "Costa Rica",
+        "payment_code": "0070",
+        "country_currency": "CRC",
+        "payment_network": "SINPE"
+    },
+    {
+        "country_name": "Dominican Republic",
+        "payment_code": "0080",
+        "country_currency": "DOP",
+        "payment_network": "ACH"
+    },
+    {
+        "country_name": "Dominican Republic",
+        "payment_code": "0081",
+        "country_currency": "DOP",
+        "payment_network": "LBTR"
+    },
+    {
+        "country_name": "Ecuador",
+        "payment_code": "0090",
+        "country_currency": "USD",
+        "payment_network": "SPI"
+    },
+    {
+        "country_name": "El Salvador",
+        "payment_code": "0100",
+        "country_currency": "USD",
+        "payment_network": "ACH"
+    },
+    {
+        "country_name": "Guatemala",
+        "payment_code": "0110",
+        "country_currency": "GTQ",
+        "payment_network": "ACH"
+    },
+    {
+        "country_name": "Honduras",
+        "payment_code": "0120",
+        "country_currency": "HNL",
+        "payment_network": "ACH"
+    },
+    {
+        "country_name": "Panama",
+        "payment_code": "0150",
+        "country_currency": "USD",
+        "payment_network": "ACH"
+    },
+    {
+        "country_name": "Paraguay",
+        "payment_code": "0160",
+        "country_currency": "PYG",
+        "payment_network": "SIPAP"
+    },
+    {
+        "country_name": "Uruguay",
+        "payment_code": "0200",
+        "country_currency": "UYU",
+        "payment_network": "SPI"
+    }
+]
