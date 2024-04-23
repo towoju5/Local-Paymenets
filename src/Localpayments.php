@@ -6,14 +6,13 @@ use Exception;
 
 class Localpayments
 {
-    public $apiUsername = "";
-    public $apiPassword = "";
+    public $apiUsername, $apiPassword;
 
 
     public function __construct()
     {
-        $this->apiUsername = $_ENV["LOCALPAYMENT_USERNAME"];
-        $this->apiPassword = $_ENV["LOCALPAYMENT_PASSWORD"];
+        $this->apiUsername = $_ENV["LOCALPAYMENT_USERNAME"] ?? getenv("LOCALPAYMENT_USERNAME");
+        $this->apiPassword = $_ENV["LOCALPAYMENT_PASSWORD"] ?? getenv("LOCALPAYMENT_PASSWORD");
     }
 
     public static function bank(array $config = [])
