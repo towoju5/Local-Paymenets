@@ -16,16 +16,41 @@ class Payout
     }
 
     public function createPayout(array $params){
+        $process = [];
         $requiredArrayKeys = ["paymentMethod", "externalId", "country", "amount", "currency", "accountNumber", "conceptCode", "merchant", "beneficiary"];
-        // check if all rerquired array exists
+        
         foreach ($requiredArrayKeys as $key) {
             if (!array_key_exists($key, $params)) {
                 throw new PayoutException("$key is required", 500, $key);
             }
         }
-        $endpoint = "/payout";
-        $process = $this->local->curl($endpoint, "POST", $params);
-        return (array)$process;
+        $endpoint = "/api/payout";
+        $local = new Localpayments;
+        $process = $local->curl($endpoint, "POST", $params);
+        
+        if(!is_array($process)) {
+            $process = json_encode($process, true);
+        } 
+        
+        // echo json_encode($process, true); exit;
+
+        if(isset($process['status']['code']) && $process['status']['code'] == 100 && $process['status']['description']) {
+            return [
+                "message" => $process['status']['detail']
+            ];
+        }
+
+        if(isset($process['status']['code']) && $process['status']['code'] != 100 && isset($process['errors'])) {
+            $arr = [
+                "message" => $process['errors'],
+                "error" => $process['status']['detail'],
+            ];
+
+            $process['error'] = $arr;
+            return $process;
+        }
+
+        return $process;
     }
 
     public function payoutStatus($externalId)
