@@ -60,7 +60,7 @@ class Payout
             $request = $this->local->curl($endpoint, "GET");
             return $request;
         } catch (\Throwable $th) {
-            throw $th;
+            return ['error' => $th->getMessage()];
         }
     }
     

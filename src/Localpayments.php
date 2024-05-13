@@ -16,6 +16,9 @@ class Localpayments
         $this->apiPassword = $_ENV["LOCALPAYMENT_PASSWORD"] ?? getenv("LOCALPAYMENT_PASSWORD");
     }
 
+    /**
+     * Bank related queries
+     */
     public static function bank(array $config = [])
     {
         $bank = new Bank();
@@ -47,7 +50,7 @@ class Localpayments
             $request = $this->curl($endpoint, "GET");
             return $request;
         } catch (\Throwable $th) {
-            throw $th;
+            return ['error' => $th->getMessage()];
         }
     }
 
@@ -57,38 +60,47 @@ class Localpayments
         return $validation;
     }
 
-    private function apiUsername()
-    {
-        return $this->apiUsername();
-    }
-
-    private function apiPassword()
-    {
-        return $this->apiPassword();
-    }
-
     private function getAccessToken()
     {
-        $token_url = $_ENV['LOCALPAYMENTS_BASE_URL'] . "/api/token/";
+        $token_url = getenv('LOCALPAYMENTS_BASE_URL') . "/api/token/";
         $auth = [
             "username" => $this->apiUsername,
             "password" => $this->apiPassword
         ];
         $result = Http::post($token_url, $auth)->json();
+        // if result is not array convert to array
+        if(!is_array($result)) {
+            $result = json_decode($result, true);
+        }
        
-        if(isset($result['access'])) return $result['access'];
-        else return $result; //throw new Exception('No access token returned');
+        if(isset($result['access'])) {
+            return $result['access'];
+        } else {
+            return ['error' => $result]; //throw new Exception('No access token returned');
+        }
     }
 
     public function curl(string $endpoint, string $method = 'post', array $body = [])
     {
         try {
-            $url = $_ENV['LOCALPAYMENTS_BASE_URL'] . $endpoint;
+            $url = getenv('LOCALPAYMENTS_BASE_URL') . $endpoint;
             $result = $this->getAccessToken();
-            if(isset($result)) {
-                $request = Http::withToken($result)->post($url, $body)->json();
+            // if error generating token return error
+            if(isset($result['error'])) {
+                return ['error' => $result['error']];
             }
-            
+            if(isset($result)) {
+                if(strtolower($method) == 'post') {
+                    $request = Http::withToken($result)->post($url, $body)->json();
+                } else if(strtolower($method) == 'get') {
+                    $request = Http::withToken($result)->get($url)->json();
+                } else {
+                    $request = ['error' => "Error: invalid method, please contact support"];
+                }
+            }
+            if(!is_array($result)) {
+                $result = json_decode($result, true);
+            }
             return ($request);
         } catch (\Throwable $th) {
             throw new Exception($th->getMessage(), $th->getCode(), $th);

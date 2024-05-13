@@ -46,4 +46,25 @@ class Bank
         $request = $local->curl($endpoint, "GET", $params);
         return $request;
     }
+
+    public function createVirtualAccount(array $params = [])
+    {        
+        $endpoint = "/api/virtual-account";
+        $local = new Localpayments;
+        $request = $local->curl($endpoint, "POST", $params);
+        return $request;
+    }
+
+    /**
+     * @param string $externalId
+     * 
+     * @return array
+     */
+    public function getVirtualAccount($externalId)
+    {        
+        $endpoint = "/api/virtual-account/".$externalid;
+        $local = new Localpayments;
+        $request = $local->curl($endpoint, "GET");
+        return $request;
+    }
 }

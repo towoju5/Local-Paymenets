@@ -15,7 +15,12 @@ class Payin
 
     public function init(array $data)
     {
-        
+        try {
+            $request = $this->local->curl($this->endpoint, "POST", $data);
+            return $request;
+        } catch (\Throwable $th) {
+            return ['error' => $th->getMessage()];
+        }
     }
 
     public function bankTransfer(array $data) 
@@ -30,6 +35,17 @@ class Payin
     public function debitCard()
     {
         //
+    }
+
+    public function cashPayin()
+    {
+        try {
+            $endpoint = "/transactions/{$externalId}";
+            $request = $this->local->curl($endpoint, "GET");
+            return $request;
+        } catch (\Throwable $th) {
+            throw new PayoutException($th);
+        }
     }
 
     

@@ -35,6 +35,7 @@ class Validation
      * 
      * Branch code is Only mandatory for brazilian's bank account. 
      * It lenght should be between 1 to 5 characters
+     * @return array
      */
     public function validate_bank(array $param)
     {
@@ -46,7 +47,8 @@ class Validation
         $local = new Localpayments();
         $account_type = $local->bank()->accountType($param['country']);
         if (!in_array($param['type'], $account_type)) {
-            throw new \Exception('Invalid account type provided');
+            return ['error' => 'Invalid account type provided'];
+            // throw new \Exception('Invalid account type provided');
         }
         $api_call = $local->curl($endpoint, $method, (array) $param);
         return $api_call;
@@ -63,7 +65,7 @@ class Validation
         $local = new Localpayments();
         $account_type = $local->bank()->accountType($param['country']);
         if(!in_array($param['type'], $account_type)) {
-            throw new \Exception('Invalid account type provided');
+            return ['error' => 'Invalid account type provided'];
         }
         $api_call = $local->curl($endpoint, $method, (array)$param);
         return $api_call;
