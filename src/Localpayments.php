@@ -89,15 +89,16 @@ class Localpayments
             if(isset($result['error'])) {
                 return ['error' => $result['error']];
             }
+
             if(isset($result)) {
-                if(strtolower($method) == 'post') {
-                    $request = Http::withToken($result)->post($url, $body)->json();
-                } else if(strtolower($method) == 'get') {
+                if(strtolower($method) == 'get') {
                     $request = Http::withToken($result)->get($url)->json();
                 } else {
-                    $request = ['error' => "Error: invalid method, please contact support"];
+                    $m = strtolower($method);
+                    $request = Http::withToken($result)->$m($url, $body)->json();
                 }
             }
+
             if(!is_array($result)) {
                 $result = json_decode($result, true);
             }
