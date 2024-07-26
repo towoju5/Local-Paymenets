@@ -10,7 +10,7 @@ class Payin
     public $local;
     public function __construct(){
         $this->local = new Localpayments();
-        $this->endpoint = "/payin";
+        $this->endpoint = "/api/payin";
     }
 
     public function init(array $data)
