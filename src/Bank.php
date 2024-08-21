@@ -62,7 +62,7 @@ class Bank
      */
     public function getVirtualAccount($externalId)
     {        
-        $endpoint = "/api/virtual-account/".$externalid;
+        $endpoint = "/api/virtual-account/$externalid";
         $local = new Localpayments;
         $request = $local->curl($endpoint, "GET");
         return $request;

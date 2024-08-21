@@ -69,11 +69,15 @@ class Localpayments
         ];
         $result = Http::post($token_url, $auth)->json();
         // if result is not array convert to array
-        if(!is_array($result)) {
+        if (!is_array($result)) {
             $result = json_decode($result, true);
         }
-       
-        if(isset($result['access'])) {
+
+        if (isset($result['error'])) {
+            echo json_encode( ['error' => $result['error']]); exit;
+        }
+
+        if (isset($result['access'])) {
             return $result['access'];
         } else {
             return ['error' => $result]; //throw new Exception('No access token returned');
@@ -82,27 +86,36 @@ class Localpayments
 
     public function curl(string $endpoint, string $method = 'post', array $body = [])
     {
+        // var_dump($body); exit;
         try {
             $url = getenv('LOCALPAYMENTS_BASE_URL') . $endpoint;
             $result = $this->getAccessToken();
-            // if error generating token return error
-            if(isset($result['error'])) {
+            // var_dump($result); exit;
+            // if error generating token return error 
+            if (isset($result['error'])) {
                 return ['error' => $result['error']];
             }
 
-            if(isset($result)) {
-                if(strtolower($method) == 'get') {
-                    $request = Http::withToken($result)->get($url)->json();
-                } else {
+            if (isset($result)) {
+                if (strtolower($method) == 'get') { 
+                    $response = Http::withToken($result)->get($url)->json();
+                } else { 
                     $m = strtolower($method);
-                    $request = Http::withToken($result)->$m($url, $body)->json();
+                    $response = Http::withToken($result)->$m($url, $body);
+
+                    if($response->successful()) {
+                        $response = (array)$response->json();
+                        // abort(400);
+                        if(isset($response['error'])) {
+                            return ['error' => $response];
+                        }
+                    } else {
+                        return ['error' => $response->body()];
+                    }
                 }
             }
 
-            if(!is_array($result)) {
-                $result = json_decode($result, true);
-            }
-            return ($request);
+            return $response;
         } catch (\Throwable $th) {
             throw new Exception($th->getMessage(), $th->getCode(), $th);
         }
